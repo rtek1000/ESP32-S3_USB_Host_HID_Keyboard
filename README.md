@@ -1,7 +1,7 @@
 # ESP32-S3 USB Host HID Keyboard
 Example of ESP32-S3 and support for mini keyboard with built-in touchpad
 
-- Framework ESP-IDF
+- Framework [ESP-IDF](https://github.com/espressif/esp-idf)
 - Board: ESP32-S3 with USB OTG
 - Tested, worked with ESP-IDF v5.3.0
 
