@@ -40,3 +40,9 @@ Mini keyboard with built-in touchpad:
 VScode:
 
 ![img](https://raw.githubusercontent.com/rtek1000/ESP32-S3_USB_Host_HID_Keyboard/main/VScode.png)
+
+------
+
+ESP32-S3:
+
+![img](https://raw.githubusercontent.com/rtek1000/ESP32-S3_USB_Host_HID_Keyboard/main/ESP32-S3%20with%20USB%20OTG%20(YD-ESP32-23).jpg)
