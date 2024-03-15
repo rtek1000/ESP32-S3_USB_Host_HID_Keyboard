@@ -28,3 +28,6 @@ ESP_ERROR_CHECK(hid_host_device_open(hid_device_handle, &dev_config));
 ESP_ERROR_CHECK(hid_host_device_start(hid_device_handle));
 ```
 
+![img](https://raw.githubusercontent.com/rtek1000/ESP32-S3_USB_Host_HID_Keyboard/main/Mini%20Keyboard%20With%20Touchpad%20Built-in.jpg)
+
+![img](https://raw.githubusercontent.com/rtek1000/ESP32-S3_USB_Host_HID_Keyboard/main/VScode.png)
