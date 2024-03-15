@@ -2,7 +2,7 @@
 Example of ESP32-S3 and support for mini keyboard with built-in touchpad
 
 - Framework [ESP-IDF](https://github.com/espressif/esp-idf)
-- Board: ESP32-S3 with USB OTG
+- Board: ESP32-S3 with USB OTG ([ESP32-23](https://www.google.com/search?q=YD-ESP32-23))
 - Tested, worked with ESP-IDF v5.3.0
 
 This type of keyboard has 2 HID interfaces, so some microcontrollers cannot recognize it correctly, so when touching the touchpad, errors occur.
