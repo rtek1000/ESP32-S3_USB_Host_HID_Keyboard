@@ -7,6 +7,8 @@ Example of ESP32-S3 and support for mini keyboard with built-in touchpad
 
 This type of keyboard has 2 HID interfaces, so some microcontrollers cannot recognize it correctly, so when touching the touchpad, errors occur.
 
+------
+
 [Modification](https://github.com/espressif/esp-idf/issues/12667) of the code 'HID Host' present in the ESP-IDF [examples](https://github.com/espressif/esp-idf/blob/ab03c2ea13ecaac1510b75e93b32cf0c472640fb/examples/peripherals/usb/host/hid/main/hid_host_example.c):
 
 > Regarding the example, right now the HID Driver parses only reports when HID device support BOOT protocol.
@@ -27,7 +29,14 @@ ESP_ERROR_CHECK(hid_host_device_open(hid_device_handle, &dev_config));
 }
 ESP_ERROR_CHECK(hid_host_device_start(hid_device_handle));
 ```
+------
+
+Mini keyboard with built-in touchpad:
 
 ![img](https://raw.githubusercontent.com/rtek1000/ESP32-S3_USB_Host_HID_Keyboard/main/Mini%20Keyboard%20With%20Touchpad%20Built-in.jpg)
+
+------
+
+VScode:
 
 ![img](https://raw.githubusercontent.com/rtek1000/ESP32-S3_USB_Host_HID_Keyboard/main/VScode.png)
